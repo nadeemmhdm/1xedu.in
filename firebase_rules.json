@@ -1,0 +1,10 @@
+{
+    "rules": {
+        ".read": "auth != null",
+        ".write": "auth != null",
+        "announcement": {
+            ".read": true,
+            ".write": "auth != null"
+        }
+    }
+}
